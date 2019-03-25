@@ -77,7 +77,7 @@ def sell_pets
 #@pets[:cats].each { |cat| cat.mood = "nervous" }
 #@pets[:dogs].each { |dog| dog.mood = "nervous" }
 #@pets = {fishes: [], cats: [], dogs:[]}
-pets.each {|species, animals| 
+pets.each {|species, animals|
   animals.each {|animal|
   animal.mood ="nervous"}
 }
